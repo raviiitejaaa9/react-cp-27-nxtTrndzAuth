@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+
+.header-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60x;
+  border: 2px black solid;
+  padding: 10px;
+}
+
+.website-logo {
+  width: 150px;
+  height: 45px;
+  margin-left: 20px;
+}
+
+.link-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 290px;
+}
+
+.link-item {
+  text-decoration: none;
+  color: #0967d2;
+}
+
+.logout-btn {
+  border: none;
+  width: 63px;
+  height: 23px;
+  background-color: #0b69ff;
+  color: whitesmoke;
+  border-radius: 5px;
+}
