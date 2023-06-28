@@ -22,6 +22,7 @@
   justify-content: space-around;
   align-items: center;
   width: 290px;
+  list-style-type: none;
 }
 
 .link-item {

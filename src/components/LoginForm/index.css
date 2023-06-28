@@ -1,1 +1,67 @@
 /* Write your CSS code here */
+
+.login-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.login-img {
+  width: 45%;
+  height: 50%;
+  margin-left: 20px;
+}
+
+.form-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 8px;
+  padding: 15px;
+  height: 50%;
+  width: 500px;
+}
+
+.form-logo {
+  width: 130px;
+  height: 40px;
+  align-self: center;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-el {
+  font-weight: bold;
+  color: #475569;
+}
+
+.input-el {
+  width: 260px;
+  height: 28px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 260px;
+  height: 30px;
+  border: none;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.login-error {
+  color: red;
+}

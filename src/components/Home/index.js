@@ -6,7 +6,7 @@ const Home = () => (
   <div className="home-container">
     <div className="home-details-sec">
       <h1 className="home-head"> Clothes That Get You Noticed </h1>
-      <p className="home-para"> Para </p>
+      <p className="home-para"> Fashion is part of the daily air </p>
       <button className="shop-now-btn" type="button">
         {' '}
         Shop Now{' '}

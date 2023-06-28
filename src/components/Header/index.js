@@ -10,21 +10,21 @@ const Header = () => (
       alt="website logo"
       className="website-logo"
     />
-    <div className="link-items-container">
+    <ul className="link-items-container">
       <Link className="link-item" to="/">
-        <p> Home </p>
+        <li> Home </li>
       </Link>
       <Link className="link-item" to="/products">
-        <p> Products </p>
+        <li> Products </li>
       </Link>
       <Link className="link-item" to="/cart">
-        <p> Cart </p>
+        <li> Cart </li>
       </Link>
       <button type="button" className="logout-btn">
         {' '}
         Logout{' '}
       </button>
-    </div>
+    </ul>
   </div>
 )
 
